@@ -1,17 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c961d214-fac7-4649-a3ec-7a977ff74452" name="Changes" comment="" />
+    <list default="true" id="c961d214-fac7-4649-a3ec-7a977ff74452" name="Changes" comment="add">
+      <change afterPath="$PROJECT_DIR$/WebService.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/WebService.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favicon/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/Favicon/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game.html" beforeDir="false" afterPath="$PROJECT_DIR$/Game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SNS.html" beforeDir="false" afterPath="$PROJECT_DIR$/SNS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Sana" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2M7jNywxLpeqLc2gAiT91FkvxAs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,11 +40,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/WebStorm/Sana",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "last_opened_file_path": "D:/WebStorm/Sana/css",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebStorm\Sana\css" />
+      <recent name="D:\WebStorm\Sana" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,11 +64,33 @@
       <option name="presentableId" value="Default" />
       <updated>1677125478395</updated>
       <workItem from="1677125480458" duration="46000" />
-      <workItem from="1677125533560" duration="253000" />
+      <workItem from="1677125533560" duration="65000" />
+      <workItem from="1677125782019" duration="1090000" />
+      <workItem from="1677126889915" duration="2577000" />
+      <workItem from="1677230506705" duration="3876000" />
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1677126020530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677126020530</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add">
+      <created>1677126052713</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677126052713</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
 </project>
