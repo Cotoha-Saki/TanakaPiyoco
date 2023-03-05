@@ -12,7 +12,11 @@ body {
 .sana {
   width: 400px;
   margin: 0 auto;
+  position: fixed;
+  right: 1050px;
+  top: 350px;
 }
+
 .sana svg {
   margin-top: 150px;
 }
@@ -46,7 +50,7 @@ body {
     width: 70px;
     position: relative;
     background-color: #ffffff;
-    box-shadow: 10px 0 0 rgb(196, 236, 255);
+    box-shadow: 10px 0 0 rgb(255, 255, 255);
     overflow-x: hidden;
     transition: all 0.5s;
 }
@@ -76,31 +80,7 @@ body {
     background-color: rgb(236, 249, 255);
 }
 
-.navigation ul li.active {
-    background-color: rgb(196, 236, 255);
-}
 
-.navigation ul li.active::before {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: -30px;
-    right: 0;
-    border-radius: 50%;
-    box-shadow: 15px 15px 0 rgb(196, 236, 255);
-}
-
-.navigation ul li.active::after {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 60px;
-    right: 0;
-    border-radius: 50%;
-    box-shadow: 15px -15px 0 rgb(196, 236, 255);
-}
 
 .navigation ul li a {
     text-decoration: none;
