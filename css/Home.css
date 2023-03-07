@@ -6,29 +6,31 @@
 
 body {
     height: 100vh;
-    background-color: rgb(105, 200, 255);
+    background-color: rgb(255, 243, 187);
 }
 
 .sana {
-  width: 400px;
+  width: 1000px;
   margin: 0 auto;
-  position: fixed;
-  right: 1050px;
-  top: 350px;
+  position: relative;
+  right: 0px;
+  top:230px;
+  z-index: 2;
 }
 
 .sana svg {
+  position: absolute;
   margin-top: 150px;
 }
 
 .sana svg path {
-  fill:#fff;
+  fill: #ffffff;
   fill-opacity: 0;
-  stroke: #fff;
-  stroke-width: 1px;
+  stroke: #ffffff;
+  stroke-width: 2px;
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: 2s ease-in forwards 0.5s textAnimation;
+  animation: 2.2s ease-in forwards 0.5s textAnimation;
 }
 
 @keyframes  textAnimation {
@@ -50,13 +52,14 @@ body {
     width: 70px;
     position: relative;
     background-color: #ffffff;
-    box-shadow: 10px 0 0 rgb(255, 255, 255);
     overflow-x: hidden;
     transition: all 0.5s;
+    z-index: 1;
 }
 
 .navigation:hover {
     width: 300px;
+    opacity: 0.8;
 }
 
 .navigation ul {
@@ -84,7 +87,7 @@ body {
 
 .navigation ul li a {
     text-decoration: none;
-    color: #0099ff;
+    color: #ffa770;
     width: 100%;
     display: flex;
     position: relative;
@@ -107,4 +110,55 @@ body {
     height: 60px;
     line-height: 60px;
     white-space: nowrap;
+}
+
+.background1 {
+  opacity: 0.1%;
+  position: relative;
+  width: 100px;
+  right: -71px;
+  height: 100vh;
+  top: -1330px;
+  animation: fadein-top 1s ease-out forwards;
+}
+
+.background2 {
+  position: relative;
+  width: 100px;
+  right: -957px;
+  height: 100vh;
+  top: -2627px;
+  animation: fadein-under 1s ease-out forwards;
+}
+
+.background3 {
+  position: relative;
+  width: 100px;
+  right: -1825px;
+  height: 100vh;
+  top: -3923px;
+  animation: fadein-top 1s ease-out forwards;
+  opacity: 0.5;
+}
+
+@keyframes fadein-top {
+  0%{
+    opacity: 1;
+    transform: translateY(-100px);
+  }
+  100%{
+    opacity: 0.5;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadein-under {
+  0%{
+    opacity: 1;
+    transform: translateY(100px);
+  }
+  100%{
+    opacity: 0.5;
+    transform: translateY(0);
+  }
 }

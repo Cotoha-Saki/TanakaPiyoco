@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c961d214-fac7-4649-a3ec-7a977ff74452" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/background/Home.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/home1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/home2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/home3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/background/home4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Game.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Game.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game.html" beforeDir="false" afterPath="$PROJECT_DIR$/Game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SVG/Sana.svg" beforeDir="false" afterPath="$PROJECT_DIR$/svg/Sana.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +60,11 @@
     <configuration name="Game.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Sana/Game.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Sana/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/Sana/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript デバッグ.index.html" />
         <item itemvalue="JavaScript デバッグ.Game.html" />
       </list>
     </recent_temporary>
@@ -75,7 +82,8 @@
       <workItem from="1677125782019" duration="1090000" />
       <workItem from="1677126889915" duration="2577000" />
       <workItem from="1677230506705" duration="8344000" />
-      <workItem from="1677384084458" duration="10530000" />
+      <workItem from="1677384084458" duration="15353000" />
+      <workItem from="1678116134090" duration="4977000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1677126020530</created>
@@ -105,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678000394829</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit">
+      <created>1678029240855</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678029240855</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
