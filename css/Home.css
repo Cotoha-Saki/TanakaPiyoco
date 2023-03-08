@@ -14,7 +14,7 @@ body {
   margin: 0 auto;
   position: relative;
   right: 0px;
-  top:230px;
+  top:280px;
   z-index: 2;
 }
 
@@ -30,7 +30,7 @@ body {
   stroke-width: 2px;
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  animation: 2.2s ease-in forwards 0.5s textAnimation;
+  animation: 2s ease-in forwards 0.5s textAnimation;
 }
 
 @keyframes  textAnimation {
@@ -119,7 +119,7 @@ body {
   right: -71px;
   height: 100vh;
   top: -1330px;
-  animation: fadein-top 1s ease-out forwards;
+  animation: fadein-top 0.8s ease-out forwards;
 }
 
 .background2 {
@@ -128,7 +128,7 @@ body {
   right: -957px;
   height: 100vh;
   top: -2627px;
-  animation: fadein-under 1s ease-out forwards;
+  animation: fadein-under 0.8s ease-out forwards;
 }
 
 .background3 {
@@ -137,7 +137,7 @@ body {
   right: -1825px;
   height: 100vh;
   top: -3923px;
-  animation: fadein-top 1s ease-out forwards;
+  animation: fadein-top 0.8s ease-out forwards;
   opacity: 0.5;
 }
 
