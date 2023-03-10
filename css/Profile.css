@@ -77,9 +77,10 @@ body {
 .profile {
   font-size: 50px;
   position: absolute;
-  right: 1750px;
-  top: 100px;
+  right: 1600px;
+  top: 240px;
   z-index: 2;
+  animation: fadein-top 0.8s ease-out forwards;
 }
 
 .profiles {
@@ -99,7 +100,7 @@ body {
   width: 100px;
   right: -500px;
   height: 100vh;
-  top: -2326px;
+  top: -2250px;
   animation: fadein-top 0.8s ease-out forwards;
 }
 

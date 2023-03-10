@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c961d214-fac7-4649-a3ec-7a977ff74452" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/background/gakuinsai.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.html" beforeDir="false" afterPath="$PROJECT_DIR$/Game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SNS.html" beforeDir="false" afterPath="$PROJECT_DIR$/SNS.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebService.html" beforeDir="false" afterPath="$PROJECT_DIR$/WebService.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Game.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Game.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Game.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Portfolio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/Profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/SNS.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/SNS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/WebService.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/WebService.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,20 +35,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/WebStorm/Sana/css&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/WebStorm/Sana/css",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WebStorm\Sana\css" />
@@ -92,7 +90,7 @@
       <workItem from="1677126889915" duration="2577000" />
       <workItem from="1677230506705" duration="8344000" />
       <workItem from="1677384084458" duration="15353000" />
-      <workItem from="1678116134090" duration="17453000" />
+      <workItem from="1678116134090" duration="20668000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1677126020530</created>
@@ -150,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678423186959</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit">
+      <created>1678433647643</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678433647643</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +173,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add" />
     <MESSAGE value="commit" />
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
