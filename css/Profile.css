@@ -6,14 +6,14 @@
 
 body {
     height: 100vh;
-    background-color: rgb(255, 243, 187);
+    background-color: rgb(255, 255, 255);
 }
 
 .navigation {
   height: 200vh;
   width: 70px;
   position: relative;
-  background-color: #ffffff;
+  background-color: #fffae1;
   overflow-x: hidden;
   transition: all 0.5s;
   z-index: 1;
@@ -75,13 +75,52 @@ body {
 }
 
 .profile {
+  font-size: 50px;
   position: absolute;
-  right: 500px;
+  right: 1750px;
   top: 100px;
+  z-index: 2;
+}
+
+.profiles {
+  position: absolute;
+  right: 200px;
+  top: 200px;
+  z-index: 2;
 }
 
 .profile-text {
   position: relative;
-  font-size: 40px;
-  top: 100px;
+  font-size: 35px;
+}
+
+.icon2 {
+  position: relative;
+  width: 100px;
+  right: -500px;
+  height: 100vh;
+  top: -2326px;
+  animation: fadein-top 0.8s ease-out forwards;
+}
+
+@keyframes fadein-top {
+  0%{
+    opacity: 0.3;
+    transform: translateX(-100px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadein-under {
+  0%{
+    opacity: 0.3;
+    transform: translateX(100px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
