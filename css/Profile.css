@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Corprate3';
+  src: url(../font/Corporate-Logo-Rounded-Bold-ver3.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -68,6 +73,7 @@ body {
 }
 
 .navigation ul li a .title {
+  font-family: Corprate;
   padding-left: 10px;
   height: 60px;
   line-height: 60px;
@@ -100,12 +106,11 @@ body {
 
 /* フォントの設定をする */
 .right {
-
+  font-family: "Fira Code Retina";
 }
-
 /* フォントの設定をする */
 .left {
-
+  font-family: Corprate;
 }
 
 .icon2 {
