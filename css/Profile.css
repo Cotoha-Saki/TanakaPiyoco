@@ -74,6 +74,7 @@ body {
   white-space: nowrap;
 }
 
+/* フォントの設定をする */
 .profile {
   font-size: 80px;
   position: relative;
@@ -82,7 +83,7 @@ body {
   z-index: 2;
   animation: fadein-top2 0.8s ease-out forwards;
 }
-
+/* フォントの設定をする */
 .profiles {
   position: relative;
   right: -1340px;
@@ -90,10 +91,21 @@ body {
   z-index: 2;
 }
 
+/* フォントの設定をする */
 .profile-text {
   position: relative;
   font-size: 35px;
   animation: fadein-top 0.8s ease-out forwards;
+}
+
+/* フォントの設定をする */
+.right {
+
+}
+
+/* フォントの設定をする */
+.left {
+
 }
 
 .icon2 {
