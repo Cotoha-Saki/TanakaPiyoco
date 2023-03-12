@@ -73,3 +73,12 @@ body {
   line-height: 60px;
   white-space: nowrap;
 }
+
+.twitter {
+  width: 600px;
+  margin: 0 auto;
+  padding: 60px 0;
+  position: relative;
+  top: -100px;
+  right: -300px;
+}
