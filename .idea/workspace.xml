@@ -5,13 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c961d214-fac7-4649-a3ec-7a977ff74452" name="Changes" comment="change">
-      <change afterPath="$PROJECT_DIR$/js/twitter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Sana..iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sana..iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/font/bananaslipplus.otf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SNS.html" beforeDir="false" afterPath="$PROJECT_DIR$/SNS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favicon/koreda.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Koreda.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/Profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SNS.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/SNS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebService.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/WebService.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/icon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Koreda.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Portfolio.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/Profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Profile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/SNS.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/SNS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/font/Corporate-Logo-Rounded-Bold-ver3.otf" beforeDir="false" afterPath="$PROJECT_DIR$/font/CorporateVer3.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/WebService.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/WebService.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/CorporateVer3.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/animation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +86,9 @@
       <recent name="D:\WebStorm\Sana" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebStorm\TanakaPiyoco\html" />
       <recent name="D:\WebStorm\TanakaPiyoco" />
+      <recent name="D:\WebStorm\TanakaPiyoco\font" />
       <recent name="D:\WebStorm\Sana\background" />
     </key>
   </component>
@@ -109,7 +125,7 @@
       <workItem from="1677384084458" duration="15353000" />
       <workItem from="1678116134090" duration="25021000" />
       <workItem from="1678507074235" duration="6119000" />
-      <workItem from="1678522057572" duration="9330000" />
+      <workItem from="1678522057572" duration="15772000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1677126020530</created>
@@ -223,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678520651064</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="change">
+      <created>1678623211932</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678623211932</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

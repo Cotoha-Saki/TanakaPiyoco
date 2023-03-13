@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2? family= M+PLUS+Rounded+1c:wght@100;400 & display=swap');
+@font-face {
+  font-family: 'bananaslipplus';
+  src: url("../font/bananaslipplus.otf");
+}
 
 * {
   margin: 0;
@@ -7,6 +10,7 @@
 }
 
 body {
+  font-family: bananaslipplus, sans-serif;
   height: 100vh;
   background-color: rgb(255, 255, 255);
 }
@@ -78,35 +82,29 @@ body {
 
 /* フォントの設定をする */
 .profile {
-  font-size: 80px;
+  font-size: 110px;
   position: relative;
   right: -1035px;
   top: -2460px;
   z-index: 2;
-  animation: fadein-top2 0.8s ease-out forwards;
+  animation: fadein-top2 0.5s ease-out forwards;
 }
 /* フォントの設定をする */
 .profiles {
-  position: relative;
-  right: -1340px;
-  top: -2180px;
+  right: -1400px;
+  top: -2250px;
   z-index: 2;
-}
-
-/* フォントの設定をする */
-.profile-text {
   position: relative;
-  font-size: 35px;
-  animation: fadein-top 0.8s ease-out forwards;
+  font-size: 50px;
+  animation: fadein-top 0.5s ease-out forwards;
 }
 
-/* フォントの設定をする */
-.right {
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+.profiles ul {
+  padding: 0;
 }
-/* フォントの設定をする */
-.left {
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+
+.profiles ul li {
+  list-style: none;
 }
 
 .icon2 {
@@ -114,8 +112,8 @@ body {
   width: 100px;
   right: -500px;
   height: 100vh;
-  top: -2600px;
-  animation: fadein-top 0.8s ease-out forwards;
+  top: -2700px;
+  animation: fadein-top 0.5s ease-out forwards;
 }
 
 @keyframes fadein-top {

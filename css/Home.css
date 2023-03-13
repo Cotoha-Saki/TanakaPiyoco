@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'bananaslipplus';
+  src: url("../font/bananaslipplus.otf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +10,7 @@
 }
 
 body {
+    font-family: bananaslipplus, sans-serif;
     height: 100vh;
     background-color: rgb(255, 255, 255);
 }
@@ -121,7 +127,7 @@ body {
   right: -71px;
   height: 100vh;
   top: -1330px;
-  animation: fadein-top 0.8s ease-out forwards;
+  animation: fadein-top 0.5s ease-out forwards;
 }
 
 .background2 {
@@ -131,7 +137,7 @@ body {
   right: -957px;
   height: 100vh;
   top: -2627px;
-  animation: fadein-under 0.8s ease-out forwards;
+  animation: fadein-under 0.5s ease-out forwards;
 }
 
 .background3 {
@@ -141,7 +147,7 @@ body {
   right: -1825px;
   height: 100vh;
   top: -3923px;
-  animation: fadein-top 0.8s ease-out forwards;
+  animation: fadein-top 0.5s ease-out forwards;
   opacity: 0.5;
 }
 

@@ -1,1 +1,0 @@
-console.log("animation.jsは動作しています。");

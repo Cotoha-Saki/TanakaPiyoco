@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'bananaslipplus';
+  src: url("../font/bananaslipplus.otf");
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +10,7 @@
 }
 
 body {
+    font-family: bananaslipplus, sans-serif;
     height: 100vh;
     background-color: rgb(255, 255, 255);
 }
