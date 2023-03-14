@@ -10,9 +10,10 @@
 }
 
 body {
-    font-family: bananaslipplus, sans-serif;
-    height: 100vh;
-    background-color: rgb(255, 255, 255);
+  font-family: bananaslipplus, sans-serif;
+  height: 100vh;
+  width: 100vh;
+  background-color: rgb(255, 255, 255);
 }
 
 .navigation {
@@ -78,32 +79,121 @@ body {
   white-space: nowrap;
 }
 
-.twitter {
-  width: 600px;
+.twitter-main {
+  width: 500px;
+  height: 700px;
   margin: 0 auto;
   padding: 60px 0;
   position: relative;
-  top: -1000px;
-  right: -300px;
+  top: -1100px;
+  right: -800px;
 }
 
+.twitter-illust {
+  width: 500px;
+  height: 700px;
+  margin: 0 auto;
+  padding: 60px 0;
+  position: relative;
+  top: -1800px;
+  right: -1500px;
+}
+
+
 .text-twitter {
+  color: #70bffd;
   position: relative;
   top: -1100px;
   right: -500px;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .text-YouTube {
+  color: #ff4e4e;
   position: relative;
   top: -1100px;
   right: -500px;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .text-Pixiv {
+  color: #559fff;
   position: relative;
   top: -1100px;
   right: -500px;
-  font-size: 30px;
+  font-size: 50px;
+}
+
+.twitter-main-icon img{
+  position: absolute;
+  top: 400px;
+  right: 1900px;
+  width: 200px;
+  height: 200px;
+  transition-duration: 0.4s;
+}
+
+.twitter-main-icon:hover img {
+  opacity: 0.6;
+  transform: scale(1.2);
+  transition-duration: 0.4s;
+}
+
+.twitter-illust-icon img{
+  position: absolute;
+  top: 400px;
+  right: 1600px;
+  width: 200px;
+  height: 200px;
+  transition-duration: 0.4s;
+}
+
+.twitter-illust-icon:hover img {
+  opacity: 0.6;
+  transform: scale(1.2);
+  transition-duration: 0.4s;
+}
+
+.YouTube-icon img{
+  position: absolute;
+  top: 400px;
+  right: 1300px;
+  width: 220px;
+  height: 220px;
+  transition-duration: 0.4s;
+}
+
+.YouTube-icon:hover img {
+  opacity: 0.6;
+  transform: scale(1.2);
+  transition-duration: 0.4s;
+}
+
+.Pixiv-icon img{
+  position: absolute;
+  top: 400px;
+  right: 1500px;
+  width: 200px;
+  height: 200px;
+  transition-duration: 0.4s;
+}
+
+.Pixiv-icon:hover img {
+  opacity: 0.6;
+  transform: scale(1.2);
+  transition-duration: 0.4s;
+}
+
+.twitter-timeline-main {
+  font-size: 40px;
+  position: absolute;
+  right: 700px;
+  top: 200px;
+}
+
+.twitter-timeline-illust {
+  font-size: 40px;
+  position: absolute;
+  right: 400px;
+  top: 200px;
 }

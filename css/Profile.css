@@ -10,13 +10,14 @@
 }
 
 body {
+  width: 100%;
   font-family: bananaslipplus, sans-serif;
   height: 100vh;
   background-color: rgb(255, 255, 255);
 }
 
 .navigation {
-  height: 200vh;
+  height: 100vh;
   width: 70px;
   position: relative;
   background-color: #fffae1;
@@ -82,37 +83,40 @@ body {
 
 /* フォントの設定をする */
 .profile {
+  color: #ff8d3b;
   font-size: 110px;
-  position: relative;
-  right: -1035px;
-  top: -2460px;
+  position: absolute;
+  right: 1000px;
+  top: 130px;
   z-index: 2;
   animation: fadein-top2 0.5s ease-out forwards;
 }
 /* フォントの設定をする */
 .profiles {
-  right: -1400px;
-  top: -2250px;
+  width: auto;
+  color: #ffc13b;
+  right: 600px;
+  top: 430px;
   z-index: 2;
-  position: relative;
+  position: absolute;
   font-size: 50px;
   animation: fadein-top 0.5s ease-out forwards;
 }
 
 .profiles ul {
+  margin: 20px 0 0 20px;
   padding: 0;
 }
 
 .profiles ul li {
+  margin: 20px 0 0 20px;
   list-style: none;
 }
 
 .icon2 {
-  position: relative;
-  width: 100px;
-  right: -500px;
-  height: 100vh;
-  top: -2700px;
+  position: absolute;
+  right: 1400px;
+  top: 400px;
   animation: fadein-top 0.5s ease-out forwards;
 }
 

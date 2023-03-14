@@ -10,9 +10,10 @@
 }
 
 body {
-    font-family: bananaslipplus, sans-serif;
-    height: 100vh;
-    background-color: rgb(255, 255, 255);
+  font-family: bananaslipplus, sans-serif;
+  height: 100vh;
+  width: 100vh;
+  background-color: rgb(255, 255, 255);
 }
 
 /*.sana {
@@ -65,8 +66,8 @@ body {
 }
 
 .navigation:hover {
-    width: 300px;
-    opacity: 0.8;
+  width: 300px;
+  opacity: 0.8;
 }
 
 .navigation ul {
