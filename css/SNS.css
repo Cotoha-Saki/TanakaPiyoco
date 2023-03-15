@@ -1,3 +1,17 @@
+@media screen and (max-width: 768px) {
+  p{
+    background-color: black;
+    color:green;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  div {
+    width: 10px;
+    height: 10px;
+  }
+}
+
 @font-face {
   font-family: 'bananaslipplus';
   src: url("../font/bananaslipplus.otf");
@@ -184,16 +198,17 @@ body {
   transition-duration: 0.4s;
 }
 
-.twitter-timeline-main {
+.twitter-timeline-illust {
+  color: #70bffd;
   font-size: 40px;
   position: absolute;
-  right: 700px;
-  top: 200px;
+  right: 560px;
+  top: 270px;
 }
 
-.twitter-timeline-illust {
+.twitter-illust {
   font-size: 40px;
   position: absolute;
   right: 400px;
-  top: 200px;
+  top: 300px;
 }
