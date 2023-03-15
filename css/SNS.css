@@ -120,6 +120,7 @@ body {
   top: -1100px;
   right: -500px;
   font-size: 50px;
+  animation: fadein-top 0.7s ease-out forwards;
 }
 
 .text-YouTube {
@@ -128,6 +129,7 @@ body {
   top: -1100px;
   right: -500px;
   font-size: 50px;
+  animation: fadein-top 0.7s ease-out forwards;
 }
 
 .text-Pixiv {
@@ -136,6 +138,7 @@ body {
   top: -1100px;
   right: -500px;
   font-size: 50px;
+  animation: fadein-top 0.7s ease-out forwards;
 }
 
 .twitter-main-icon img{
@@ -204,6 +207,7 @@ body {
   position: absolute;
   right: 560px;
   top: 270px;
+  animation: fadein-top2 0.7s ease-out forwards;
 }
 
 .twitter-illust {
@@ -211,4 +215,26 @@ body {
   position: absolute;
   right: 400px;
   top: 300px;
+}
+
+@keyframes fadein-top2 {
+  0%{
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadein-top {
+  0%{
+    opacity: 0.3;
+    transform: translateX(-30px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
