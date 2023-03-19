@@ -121,10 +121,10 @@ body {
 }
 
 .background1 {
-  max-width: 100%;
+  max-width: 100px;
   opacity: 0.1%;
   position: relative;
-  width: 100px;
+  width: 100%;
   right: -71px;
   height: 100vh;
   top: -1330px;
@@ -132,9 +132,9 @@ body {
 }
 
 .background2 {
-  max-width: 100%;
+  max-width: 100px;
   position: relative;
-  width: 100px;
+  width: 100%;
   right: -957px;
   height: 100vh;
   top: -2627px;
@@ -142,9 +142,9 @@ body {
 }
 
 .background3 {
-  max-width: 100%;
+  max-width: 100px;
   position: relative;
-  width: 100px;
+  width: 100%;
   right: -1825px;
   height: 100vh;
   top: -3923px;
