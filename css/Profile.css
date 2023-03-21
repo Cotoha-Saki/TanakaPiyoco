@@ -126,6 +126,7 @@
     justify-content: center;
     margin-top: 100px;
     margin-bottom: 100px;
+    font-size: clamp(30px, 6.9vw, 100px);
   }
 
   .profile-all .profile-detail .others {
@@ -135,55 +136,210 @@
     margin-bottom: 100px;
   }
 
+  .profile-all .profile-detail .lv {
+    color: #ff9f00;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: clamp(30px, 6.9vw, 100px);
+  }
+
+  .profile-all .profile-detail .ft {
+    color: #ffd90c;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  .profile-all .profile-detail .hobby {
+    color: #ff9f00;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: clamp(30px, 6.9vw, 100px);
+  }
+
+  .profile-all .profile-detail .hb {
+    color: #ffc971;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
   /* プロフ内容テキストサイズ */
 
+  .profile-all .profile-detail .main .t1 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    border-bottom: 2px solid;
+  }
+
   .profile-all .profile-detail .main .t1-1 {
-    font-size: clamp(30px, 3.9vw, 90px);
+    font-size: clamp(30px, 4.9vw, 100px);
     color: #ffc971;
+    border-bottom: 2px solid;
+  }
+
+  .profile-all .profile-detail .main .t2 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    border-bottom: 2px solid;
   }
 
   .profile-all .profile-detail .main .t2-1 {
-    font-size: clamp(30px, 3.9vw, 90px);
+    font-size: clamp(30px, 4.9vw, 100px);
     color: #ffc971;
+    border-bottom: 2px solid;
+  }
+
+  .profile-all .profile-detail .main .t3 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    border-bottom: 2px solid;
   }
 
   .profile-all .profile-detail .main .t3-1 {
-    font-size: clamp(30px, 3.9vw, 90px);
+    font-size: clamp(30px, 4.9vw, 100px);
     color: #ffc971;
+    border-bottom: 2px solid;
+  }
+
+  .profile-all .profile-detail .main .t4 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    border-bottom: 2px solid;
   }
 
   .profile-all .profile-detail .main .t4-1 {
-    font-size: clamp(30px, 3.9vw, 90px);
+    font-size: clamp(30px, 4.9vw, 100px);
     color: #ffc971;
+    border-bottom: 2px solid;
+  }
+
+  .profile-all .profile-detail .main .t5 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    border-bottom: 2px solid;
   }
 
   .profile-all .profile-detail .main .t5-1 {
-    font-size: clamp(30px, 3.9vw, 90px);
+    font-size: clamp(30px, 4.9vw, 100px);
     color: #ffc971;
+    border-bottom: 2px solid;
   }
+
+  .profile-all .profile-detail .main .t6 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    border-bottom: 2px solid;
+  }
+
   .profile-all .profile-detail .main .t6-1 {
-    font-size: clamp(30px, 3.9vw, 90px);
+    font-size: clamp(30px, 4.9vw, 100px);
     color: #ffc971;
+    border-bottom: 2px solid;
+  }
+
+  .profile-all .profile-detail .others .t7 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    border-bottom: 2px solid;
   }
 
   .profile-all .profile-detail .others .t7-1 {
-    font-size: clamp(30px, 3.9vw, 90px);
+    font-size: clamp(30px, 4.9vw, 100px);
     color: #ffc971;
+    border-bottom: 2px solid;
+  }
+
+  .profile-all .profile-detail .others .t8 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    border-bottom: 2px solid;
   }
 
   .profile-all .profile-detail .others .t8-1 {
-    font-size: clamp(30px, 3.9vw, 90px);
+    font-size: clamp(30px, 4.9vw, 100px);
     color: #ffc971;
+    border-bottom: 2px solid;
+  }
+
+  .profile-all .profile-detail .others .t9 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    border-bottom: 2px solid;
   }
 
   .profile-all .profile-detail .others .t9-1 {
-    font-size: clamp(30px, 3.9vw, 90px);
+    font-size: clamp(30px, 4.9vw, 100px);
     color: #ffc971;
+    border-bottom: 2px solid;
+  }
+
+  .profile-all .profile-detail .others .t10 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    border-bottom: 2px solid;
   }
 
   .profile-all .profile-detail .others .t10-1 {
-    font-size: clamp(30px, 3.9vw, 90px);
+    font-size: clamp(30px, 4.9vw, 100px);
     color: #ffc971;
+    border-bottom: 2px solid;
+  }
+
+  .profile-all .profile-detail .ft .ft1 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    border-bottom: 2px solid;
+  }
+
+  .profile-all .profile-detail .ft .ft1-1 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    color: #ffc971;
+    border-bottom: 2px solid;
+  }
+
+  .profile-all .profile-detail .ft .ft2 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    border-bottom: 2px solid;
+  }
+
+  .profile-all .profile-detail .ft .ft2-1 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    color: #ffc971;
+    border-bottom: 2px solid;
+  }
+
+  .profile-all .profile-detail .ft .ft3 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    border-bottom: 2px solid;
+  }
+
+  .profile-all .profile-detail .ft .ft3-1 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    color: #ffc971;
+    border-bottom: 2px solid;
+  }
+
+  .profile-all .profile-detail .ft .ft4 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    border-bottom: 2px solid;
+  }
+
+  .profile-all .profile-detail .ft .ft4-1 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    color: #ffc971;
+    border-bottom: 2px solid;
+  }
+
+  .profile-all .profile-detail .hb .hb1 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    color: #ffc971;
+    border-bottom: 2px solid;
+  }
+
+  .profile-all .profile-detail .hb .hb2 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    color: #ffc971;
+    border-bottom: 2px solid;
+  }
+
+  .profile-all .profile-detail .hb .hb3 {
+    font-size: clamp(30px, 4.9vw, 100px);
+    color: #ffc971;
+    border-bottom: 2px solid;
   }
 }
 
