@@ -81,6 +81,19 @@
     font-size: 3rem;
   }
 
+  .navigation ul li a .icona{
+    display: block;
+    min-width: 63px;
+    height: 55px;
+    line-height: 90px;
+    text-align: center;
+    color: #ff0a0a;
+  }
+
+  .navigation ul li a .icona ion-icon {
+    font-size: 3rem;
+  }
+
   .SNS {
     position: relative;
     text-align: center;
@@ -91,7 +104,7 @@
     width: 100%;
     left: 0px;
     position: absolute;
-    font-size: clamp(90px, 16.9vw, 180px);
+    font-size: clamp(60px, 12.9vw, 180px);
     text-align: center;
     white-space: nowrap;
     color: #ff9f00;
@@ -140,37 +153,47 @@
 @media only screen and (min-width: 1281px) and (max-width: 5000px) {
 
   * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  ul {
+
+  }
+
+  li {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  span {
+    text-align: left;
   }
 
   body {
     font-family: bananaslipplus, sans-serif;
     height: 100vh;
-    width: 100vh;
     background-color: rgb(255, 255, 255);
   }
 
   .navigation {
-    height: 100vh;
-    width: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 250px;
+    width: 80px;
     position: relative;
-    background-color: #fffae1;
-    overflow-x: hidden;
-    transition: all 0.5s;
+    background-color: #ffe877;
     z-index: 1;
-  }
-
-  .navigation:hover {
-    width: 300px;
-    opacity: 0.8;
+    opacity: 0.7;
+    border-radius: 30px;
   }
 
   .navigation ul {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -30px;
+    left: -6px;
     width: 100%;
     padding-top: 20px;
     padding-left: 13.8px;
@@ -182,182 +205,94 @@
     width: 100%;
     position: relative;
     border-radius: 15px;
-  }
-
-  .navigation ul li:hover {
-    background-color: rgb(255, 251, 229);
+    top: 28px;
   }
 
   .navigation ul li a {
     text-decoration: none;
-    color: #ffa770;
+    color: #ff6e4d;
     width: 100%;
     display: flex;
     position: relative;
+    opacity: 0.7;
   }
 
   .navigation ul li a .icon{
     display: block;
-    min-width: 45px;
-    height: 60px;
-    line-height: 70px;
+    min-width: 63px;
+    height: 55px;
+    line-height: 90px;
     text-align: center;
   }
 
   .navigation ul li a .icon ion-icon {
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
 
-  .navigation ul li a .title {
-    padding-left: 10px;
-    height: 60px;
-    line-height: 60px;
+  .navigation ul li a .icona{
+    display: block;
+    min-width: 63px;
+    height: 55px;
+    line-height: 90px;
+    text-align: center;
+    color: #ff0a0a;
+  }
+
+  .navigation ul li a .icona ion-icon {
+    font-size: 3rem;
+  }
+
+  .SNS {
+    position: relative;
+    text-align: center;
+  }
+
+  .SNS .SNSt {
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    font-size: clamp(60px, 12.9vw, 180px);
+    text-align: center;
     white-space: nowrap;
+    color: #ff9f00;
+    margin-bottom: 100px;
   }
 
-  .twitter-main {
-    width: 500px;
-    height: 700px;
-    margin: 0 auto;
-    padding: 60px 0;
+  .SNS-text {
     position: relative;
-    top: -1100px;
-    right: -800px;
+    color: #ff9f00;
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    margin-bottom: 100px;
+    font-size: clamp(30px, 6.9vw, 100px);
   }
 
-  .twitter-illust {
-    width: 500px;
-    height: 700px;
-    margin: 0 auto;
-    padding: 60px 0;
-    position: relative;
-    top: -1800px;
-    right: -1500px;
+  .SNS-text ul li .text-twitter {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: clamp(35px, 6.9vw, 100px);
+    color: #3cb4ff;
+    border-bottom: 2px solid;
   }
 
-
-  .text-twitter {
-    color: #70bffd;
-    position: relative;
-    top: -1100px;
-    right: -500px;
-    font-size: 50px;
-    animation: fadein-top 0.7s ease-out forwards;
+  .SNS-text ul li .text-Pixiv {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: clamp(35px, 6.9vw, 100px);
+    color: #2190ff;
+    border-bottom: 2px solid;
   }
 
-  .text-YouTube {
-    color: #ff4e4e;
-    position: relative;
-    top: -1100px;
-    right: -500px;
-    font-size: 50px;
-    animation: fadein-top 0.7s ease-out forwards;
-  }
-
-  .text-Pixiv {
-    color: #559fff;
-    position: relative;
-    top: -1100px;
-    right: -500px;
-    font-size: 50px;
-    animation: fadein-top 0.7s ease-out forwards;
-  }
-
-  .twitter-main-icon img{
-    position: absolute;
-    top: 400px;
-    right: 1900px;
-    width: 200px;
-    height: 200px;
-    transition-duration: 0.4s;
-  }
-
-  .twitter-main-icon:hover img {
-    opacity: 0.6;
-    transform: scale(1.2);
-    transition-duration: 0.4s;
-  }
-
-  .twitter-illust-icon img{
-    position: absolute;
-    top: 400px;
-    right: 1600px;
-    width: 200px;
-    height: 200px;
-    transition-duration: 0.4s;
-  }
-
-  .twitter-illust-icon:hover img {
-    opacity: 0.6;
-    transform: scale(1.2);
-    transition-duration: 0.4s;
-  }
-
-  .YouTube-icon img{
-    position: absolute;
-    top: 400px;
-    right: 1300px;
-    width: 220px;
-    height: 220px;
-    transition-duration: 0.4s;
-  }
-
-  .YouTube-icon:hover img {
-    opacity: 0.6;
-    transform: scale(1.2);
-    transition-duration: 0.4s;
-  }
-
-  .Pixiv-icon img{
-    position: absolute;
-    top: 400px;
-    right: 1500px;
-    width: 200px;
-    height: 200px;
-    transition-duration: 0.4s;
-  }
-
-  .Pixiv-icon:hover img {
-    opacity: 0.6;
-    transform: scale(1.2);
-    transition-duration: 0.4s;
-  }
-
-  .twitter-timeline-illust {
-    color: #70bffd;
-    font-size: 50px;
-    position: absolute;
-    right: 530px;
-    top: 270px;
-    animation: fadein-top2 0.7s ease-out forwards;
-  }
-
-  .twitter-illust {
-    font-size: 40px;
-    position: absolute;
-    right: 400px;
-    top: 300px;
-  }
-
-  @keyframes fadein-top2 {
-    0%{
-      opacity: 0;
-      transform: translateY(-30px);
-    }
-    100%{
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-
-  @keyframes fadein-top {
-    0%{
-      opacity: 0.3;
-      transform: translateX(-30px);
-    }
-    100%{
-      opacity: 1;
-      transform: translateY(0);
-    }
+  .SNS-text ul li .text-GitHub {
+    text-decoration: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: clamp(35px, 6.9vw, 100px);
+    color: #000000;
+    border-bottom: 2px solid;
   }
 }

@@ -11,7 +11,7 @@ span {
 }
 
 .PG-Gallery .PGG {
-  font-size: clamp(30px, 10.9vw, 100px);
+  font-size: clamp(30px, 10.9vw, 140px);
   color: #00a6ff;
   justify-content: center;
   margin-bottom: -20px;
@@ -20,11 +20,12 @@ span {
 .illust-Gallery {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
 }
 
 .illust-Gallery .ILG {
-  font-size: clamp(30px, 10.9vw, 100px);
+  margin-top: 150px;
+  margin-bottom:120px;
+  font-size: clamp(30px, 10.9vw, 140px);
   color: #ff9f00;
   justify-content: center;
 }

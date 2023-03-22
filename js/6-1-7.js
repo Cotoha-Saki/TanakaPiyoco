@@ -2,7 +2,7 @@
 $('.slider-1',).slick({
   autoplay: true,//自動的に動き出すか。初期値はfalse。
   infinite: true,//スライドをループさせるかどうか。初期値はtrue。
-  speed: 500,//スライドのスピード。初期値は300。
+  speed: 400,//スライドのスピード。初期値は300。
   slidesToShow: 3,//スライドを画面に3枚見せる
   slidesToScroll: 1,//1回のスクロールで1枚の写真を移動して見せる
   prevArrow: '<div class="slick-prev"></div>',//矢印部分PreviewのHTMLを変更
@@ -15,7 +15,7 @@ $('.slider-1',).slick({
 $('.slider-2',).slick({
   autoplay: true,//自動的に動き出すか。初期値はfalse。
   infinite: true,//スライドをループさせるかどうか。初期値はtrue。
-  speed: 500,//スライドのスピード。初期値は300。
+  speed: 400,//スライドのスピード。初期値は300。
   slidesToShow: 3,//スライドを画面に3枚見せる
   slidesToScroll: 1,//1回のスクロールで1枚の写真を移動して見せる
   prevArrow: '<div class="slick-prev"></div>',//矢印部分PreviewのHTMLを変更
