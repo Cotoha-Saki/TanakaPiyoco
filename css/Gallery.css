@@ -172,7 +172,16 @@
     background: #333;
   }
 
-
+  .copylite {
+    position: absolute;
+    color: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    font-size: clamp(5px, 3.9vw, 20px);
+    bottom: -100%;
+    width: 100%;
+    text-align: center;
+  }
 
 }
 
@@ -340,5 +349,16 @@
 
   .slick-dots .slick-active button{
     background: #333;
+  }
+
+  .copylite {
+    position: absolute;
+    color: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    font-size: clamp(5px, 3.9vw, 20px);
+    bottom: -100%;
+    width: 100%;
+    text-align: center;
   }
 }

@@ -148,6 +148,17 @@
     border-bottom: 2px solid;
   }
 
+  .copylite {
+    position: absolute;
+    color: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    font-size: clamp(5px, 3.9vw, 20px);
+    bottom: -10%;
+    width: 100%;
+    text-align: center;
+  }
+
 }
 
 @media only screen and (min-width: 1281px) and (max-width: 5000px) {
@@ -294,5 +305,16 @@
     font-size: clamp(35px, 6.9vw, 100px);
     color: #000000;
     border-bottom: 2px solid;
+  }
+
+  .copylite {
+    position: absolute;
+    color: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    font-size: clamp(5px, 3.9vw, 20px);
+    bottom: -15%;
+    width: 100%;
+    text-align: center;
   }
 }

@@ -5,20 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c961d214-fac7-4649-a3ec-7a977ff74452" name="Changes" comment="色々">
-      <change afterPath="$PROJECT_DIR$/img/tanaka.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/Gallery.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SNS.html" beforeDir="false" afterPath="$PROJECT_DIR$/SNS.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/Gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Gallery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Gallery2.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Gallery2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/Profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/Profile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/SNS.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/SNS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Test.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/6-1-7.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/6-1-7.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +62,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/WebStorm/AmazonHideAddress",
+    "last_opened_file_path": "D:/WebStorm/TanakaPiyoco",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -126,7 +121,9 @@
       <workItem from="1678116134090" duration="25021000" />
       <workItem from="1678507074235" duration="6119000" />
       <workItem from="1678522057572" duration="33479000" />
-      <workItem from="1678939443362" duration="97444000" />
+      <workItem from="1678939443362" duration="98541000" />
+      <workItem from="1679532033745" duration="787000" />
+      <workItem from="1679532875284" duration="104000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1677126020530</created>
@@ -338,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679405534776</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="色々">
+      <created>1679486058029</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1679486058029</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
